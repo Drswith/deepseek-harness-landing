@@ -1,0 +1,498 @@
+{
+  "url": "https://www.deepseek.com/harness/en/",
+  "viewport": [
+    1440,
+    1000
+  ],
+  "height": 6166,
+  "width": 1440,
+  "title": "DeepSeek Harness developer preview: Everything is a plugin",
+  "h1": "Everything is a plugin",
+  "text": "Harness\nDeveloper preview\n中文\nEN\nGitHub\nGitHub\nDeveloper docs\nCommunity plugins\nCordis paper\n中文\nEN\n\nDeepSeek Harness developer preview\n\nEverything is a plugin\n\nDeepSeek Harness is now in developer preview for agent harness developers worldwide — source code included.\n\nEvery capability is a plugin that can be swapped or recomposed: models, tools, skills, sessions, sandboxes, storage, loops, scheduling, and the UI.\n\nView on GitHub\nDeveloper docs\nCommunity plugins\nCordis paper\nQuick start\nInstall from source\nCopy\n$ npx @deepseek-ai/dsh web\nAGENT = MODEL + HARNESS\nHARNESS\nkeeps agents working in real-world environments\n\nThe model is the soul of an agent.\n\nA harness lets an agent understand its environment, use tools, and keep working in real-world settings.\n\nCordis kernel\n\nThe Cordis kernel manages plugin mounting, unmounting, and dependencies. Agent capabilities live in the plugins.\n\nCapabilities as plugins\n\nPlugins provide every agent capability, including models, tools, skills, sessions, sandboxes, storage, loops, scheduling, and the UI. Cordis services and events let the plugins work together.\n\nCompose with configuration\n\nDevelopers can select, swap, or extend any capability in configuration without changing the DeepSeek Harness source code.\n\nDESIGN APPROACH\nEverything is a plugin.\nEvery run is traceable.\nEverything is a plugin\n\nDeepSeek Harness is built on Cordis's plugin system. Plugins provide every agent capability, including models, tools, skills, sessions, sandboxes, storage, loops, scheduling, and the UI. Cordis services and events let the plugins work together. Developers can select, swap, or extend any capability in configuration without changing the DeepSeek Harness source code.\n\nEvery run is traceable\n\nEverything the model sees is recorded in an append-only session log: system prompts, reasoning, tool calls and results, subagent scheduling, and every context injection. In the Trajectory view, you can inspect these records by source. Resume, fork, search, and replay all operate on the same event stream.\n\nMultiple runtime modes\n\nStandard mode includes the full toolset. Code mode uses model-generated code to orchestrate multiple rounds of tool calls. Minimal mode keeps only a shell tool and a file editor for benchmarking models in a minimal environment. Creator mode lets you inspect the current runtime, test Cordis plugins in memory, and combine them into new modes.\n\ndsh-demo\nCreator mode\nDescribe what you want to build\nStandard mode\nFull coding agent with file editing, shell, file and web search, skills, planning, goals, subagents, and workflows.\nCode mode\nAll Standard mode capabilities, with tools exposed through the Code Mode SDK so the model can combine multi-step operations in one TypeScript program.\nMinimal mode\nTwo-tool coding agent with persistent bash and str_replace_editor.\nCreator mode\nBuilt for creating custom agent presets, with all Standard mode capabilities plus runtime inspection, plugin experiments, and preset-authoring guidance.\nCustomize your DeepSeek Harness\nGET STARTED\nTry it now or install from source\nQuick start\n\nInstall Node.js, then launch the Web UI with npx.\n\n$ npx @deepseek-ai/dsh web\nCopy\nInstall from source\n\nClone the full source and follow the setup instructions in the repository.\n\n$ git clone https://github.com/deepseek-ai/deepseek-harness\nCopy\nJoin the DSH plugin ecosystem\n\nDeepSeek Harness remains in developer preview and is still being tested by developers building agent harnesses. Its core plugins and APIs will continue to evolve. We look forward to exploring the limits of intelligence with developers worldwide using open-source infrastructure that is reusable and composable.\n\nView on GitHub\nDeveloper docs\nCommunity plugins\nOfficial WeChat account\nScan to follow\n\nOpen source · MIT · © 2026 DeepSeek. All rights reserved.\n\nSafe Use Policy\n·\nData Processing Statement",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Everything is a plugin",
+      "font": "16px / 24px \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "rgb(229, 231, 235)",
+      "top": 0,
+      "left": 0,
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "index": 1,
+      "heading": "Harnesskeeps agents working in real-world environments",
+      "font": "16px / 24px \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "rgb(229, 231, 235)",
+      "top": 1000,
+      "left": 150,
+      "width": 1140,
+      "height": 910.9296875
+    },
+    {
+      "index": 2,
+      "heading": "Everything is a plugin.\nEvery run is traceable.",
+      "font": "16px / 24px \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "rgb(229, 231, 235)",
+      "top": 1910.9296875,
+      "left": 150,
+      "width": 1140,
+      "height": 1820.40625
+    },
+    {
+      "index": 3,
+      "heading": "Customize your DeepSeek Harness",
+      "font": "16px / 24px \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "rgb(229, 231, 235)",
+      "top": 3731.3359375,
+      "left": 150,
+      "width": 1140,
+      "height": 1016.125
+    },
+    {
+      "index": 4,
+      "heading": "Try it now or install from source",
+      "font": "16px / 24px \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "rgb(229, 231, 235)",
+      "top": 4747.4609375,
+      "left": 150,
+      "width": 1140,
+      "height": 685.890625
+    },
+    {
+      "index": 5,
+      "heading": "Join the DSH plugin ecosystem",
+      "font": "16px / 24px \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "rgb(229, 231, 235)",
+      "top": 5473.2490234375,
+      "left": 150,
+      "width": 1140,
+      "height": 654.40625
+    }
+  ],
+  "headings": [
+    {
+      "text": "Everything is a plugin",
+      "font": "500 46px / 55.2px Montserrat, \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "rgb(229, 231, 235)",
+      "top": 346.1103820800781,
+      "left": 150,
+      "width": 485.9453125,
+      "height": 55.1953125
+    },
+    {
+      "text": "Harnesskeeps agents working in real-world environments",
+      "font": "500 36px / 54px Montserrat, \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "rgb(229, 231, 235)",
+      "top": 1154.6024169921875,
+      "left": 310,
+      "width": 820,
+      "height": 165.4609375
+    },
+    {
+      "text": "Cordis kernel",
+      "font": "500 18px / 27px \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "rgb(229, 231, 235)",
+      "top": 1615.625732421875,
+      "left": 277.4140625,
+      "width": 109.171875,
+      "height": 27
+    },
+    {
+      "text": "Capabilities as plugins",
+      "font": "500 18px / 27px \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "rgb(229, 231, 235)",
+      "top": 1620.3892822265625,
+      "left": 627.140625,
+      "width": 185.7109375,
+      "height": 27
+    },
+    {
+      "text": "Compose with configuration",
+      "font": "500 18px / 27px \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "rgb(229, 231, 235)",
+      "top": 1620.894287109375,
+      "left": 989.8671875,
+      "width": 236.2578125,
+      "height": 27
+    },
+    {
+      "text": "Everything is a plugin.\nEvery run is traceable.",
+      "font": "500 36px / 54px Montserrat, \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "rgb(229, 231, 235)",
+      "top": 2090.543701171875,
+      "left": 150,
+      "width": 680,
+      "height": 108
+    },
+    {
+      "text": "Everything is a plugin",
+      "font": "22px / 33px \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "rgb(229, 231, 235)",
+      "top": 2394.101806640625,
+      "left": 186,
+      "width": 210.28125,
+      "height": 33
+    },
+    {
+      "text": "Every run is traceable",
+      "font": "22px / 33px \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "rgb(229, 231, 235)",
+      "top": 2853.468994140625,
+      "left": 186,
+      "width": 215.7109375,
+      "height": 33
+    },
+    {
+      "text": "Multiple runtime modes",
+      "font": "22px / 33px \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "rgb(229, 231, 235)",
+      "top": 3285.640869140625,
+      "left": 186,
+      "width": 237.3203125,
+      "height": 33
+    },
+    {
+      "text": "Customize your DeepSeek Harness",
+      "font": "500 36px / 54px Montserrat, \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "rgb(229, 231, 235)",
+      "top": 3870.65625,
+      "left": 411.8515625,
+      "width": 616.2890625,
+      "height": 54
+    },
+    {
+      "text": "Try it now or install from source",
+      "font": "500 36px / 54px Montserrat, \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "rgb(229, 231, 235)",
+      "top": 4928.64453125,
+      "left": 150,
+      "width": 600,
+      "height": 54
+    },
+    {
+      "text": "Quick start",
+      "font": "500 20px / 30px \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "rgb(229, 231, 235)",
+      "top": 5113.734375,
+      "left": 191,
+      "width": 472,
+      "height": 30
+    },
+    {
+      "text": "Install from source",
+      "font": "500 20px / 30px \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "rgb(229, 231, 235)",
+      "top": 5113.9609375,
+      "left": 777,
+      "width": 472,
+      "height": 30
+    },
+    {
+      "text": "Join the DSH plugin ecosystem",
+      "font": "500 36px / 54px Montserrat, \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "rgb(229, 231, 235)",
+      "top": 5633.2490234375,
+      "left": 444.828125,
+      "width": 550.3359375,
+      "height": 54
+    }
+  ],
+  "images": [
+    {
+      "src": "https://www.deepseek.com/harness/images/harness/feat-plugin.en.png",
+      "alt": "DeepSeek Harness settings showing installed plugins and their status",
+      "width": 1520,
+      "height": 950
+    },
+    {
+      "src": "https://www.deepseek.com/harness/images/harness/trajectory-real-view.en.png",
+      "alt": "Reconstruct a complete run from a single session log",
+      "width": 1520,
+      "height": 950
+    },
+    {
+      "src": "https://www.deepseek.com/harness/images/harness/feat-plugin.en.png",
+      "alt": "DeepSeek Harness settings showing installed plugins and their status",
+      "width": 1520,
+      "height": 950
+    },
+    {
+      "src": "https://www.deepseek.com/harness/images/harness/trajectory-real-view.en.png",
+      "alt": "Reconstruct a complete run from a single session log",
+      "width": 1520,
+      "height": 950
+    },
+    {
+      "src": "https://www.deepseek.com/harness/images/qr-wechat.png",
+      "alt": "QR Code",
+      "width": 320,
+      "height": 320
+    }
+  ],
+  "canvasCount": 5,
+  "variables": {
+    "--ds-btn-ghost-hover-bg": "hsla(0,0%,100%,.08)",
+    "--ds-radius-sm": "8px",
+    "--ds-color-brand-deep": "#fff",
+    "--ds-radius-media": "10px",
+    "--ds-color-bg-surface-2": "hsla(0,0%,100%,.04)",
+    "--ds-blur-glass": "12px",
+    "--ds-color-bg-hero-cta": "hsla(0,0%,100%,.12)",
+    "--ds-color-border-divider": "hsla(0,0%,100%,.25)",
+    "--ds-radius-pill": "100px",
+    "--ds-space-2": "8px",
+    "--ds-color-border-secondary": "hsla(0,0%,100%,.2)",
+    "--ds-btn-ghost-text": "#fff",
+    "--ds-radius-panel": "16px",
+    "--ds-color-bg-overlay": "#262626",
+    "--ds-btn-primary-bg": "#fff",
+    "--ds-font-display": "\"Host Grotesk\",system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif",
+    "--ds-radius-input": "10px",
+    "--ds-color-border-input-focus": "hsla(0,0%,100%,.25)",
+    "--ds-font-sans": "\"DM Sans\",system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans SC\",\"PingFang SC\",sans-serif",
+    "--ds-color-bg-input-hover": "hsla(0,0%,100%,.12)",
+    "--ds-btn-secondary-hover-bg": "hsla(0,0%,100%,.2)",
+    "--ds-space-13": "240px",
+    "--ds-color-border-input": "hsla(0,0%,100%,.2)",
+    "--ds-color-scrollbar": "hsla(0,0%,100%,.2)",
+    "--ds-space-9": "80px",
+    "--ds-btn-ghost-static-border": "rgba(0,0,0,.2)",
+    "--ds-space-6": "32px",
+    "--ds-color-brand-light-reverse": "#73a3d2",
+    "--ds-color-border-subtle": "hsla(0,0%,100%,.08)",
+    "--ds-btn-secondary-bg": "hsla(0,0%,100%,.06)",
+    "--ds-color-bg-page": "#0a0a0a",
+    "--ds-space-5": "24px",
+    "--ds-color-bg-surface-3": "hsla(0,0%,100%,.02)",
+    "--ds-btn-secondary-border": "hsla(0,0%,100%,.15)",
+    "--ds-btn-secondary-hover-border": "hsla(0,0%,100%,.6)",
+    "--ds-color-text-description": "hsla(0,0%,100%,.5)",
+    "--ds-color-static-white": "#fff",
+    "--ds-space-7": "40px",
+    "--ds-color-brand": "#6799fe",
+    "--ds-color-text-primary": "#fff",
+    "--ds-btn-primary-text": "#0a0a0a",
+    "--ds-space-1": "4px",
+    "--ds-color-bg-dark": "#fff",
+    "--ds-space-8": "56px",
+    "--ds-color-static-black": "#0f0f0f",
+    "--ds-color-bg-surface-4": "hsla(0,0%,100%,.015)",
+    "--ds-color-text-inverse": "#fff",
+    "--ds-color-border-default": "hsla(0,0%,100%,.06)",
+    "--ds-btn-ghost-static-bg": "transparent",
+    "--ds-btn-ghost-static-text": "#0f0f0f",
+    "--ds-btn-ghost-hover-border": "hsla(0,0%,100%,.2)",
+    "--ds-btn-liquid-hover-bg": "rgba(0,0,0,.2)",
+    "--ds-color-bg-input": "hsla(0,0%,100%,.08)",
+    "--ds-space-3": "12px",
+    "--ds-color-text-secondary": "hsla(0,0%,100%,.8)",
+    "--ds-space-4": "16px",
+    "--ds-radius-card": "24px",
+    "--ds-color-brand-medium-reverse": "#fff",
+    "--ds-space-11": "160px",
+    "--ds-color-text-link-blue": "#234792",
+    "--ds-color-text-primary-bluish": "#fff",
+    "--ds-shadow-card": "hsla(0,0%,100%,.12) 0px 1px 0px 0px inset",
+    "--ds-font-body": "\"DM Sans\",system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans SC\",\"PingFang SC\",sans-serif",
+    "--ds-color-bg-hover": "hsla(0,0%,100%,.06)",
+    "--ds-color-border-strong": "hsla(0,0%,100%,.24)",
+    "--ds-btn-ghost-border": "transparent",
+    "--ds-color-bg-surface-raised": "hsla(0,0%,100%,.25)",
+    "--ds-color-border-hover": "hsla(0,0%,100%,.2)",
+    "--ds-btn-liquid-bg": "#fff",
+    "--ds-color-bg-code": "rgba(0,0,0,.35)",
+    "--ds-btn-ghost-static-hover-bg": "rgba(0,0,0,.05)",
+    "--ds-btn-ghost-static-hover-border": "rgba(9,45,78,.3)",
+    "--ds-color-bg-surface-5": "hsla(0,0%,100%,.12)",
+    "--ds-btn-primary-border": "transparent",
+    "--ds-color-bg-surface-1": "hsla(0,0%,100%,.06)",
+    "--ds-color-static-black-secondary": "rgba(0,0,0,.6)",
+    "--ds-btn-primary-hover-bg": "rgba(0,0,0,.2)",
+    "--ds-font-mono": "\"Fragment Mono\",ui-monospace,SFMono-Regular,Menlo,Consolas,\"Noto Sans SC\",\"PingFang SC\",\"Microsoft YaHei\",monospace",
+    "--ds-space-10": "120px",
+    "--ds-space-12": "200px",
+    "--ds-color-text-placeholder": "hsla(0,0%,100%,.3)",
+    "--ds-btn-secondary-text": "#fff",
+    "--ds-btn-ghost-bg": "transparent"
+  },
+  "links": [
+    {
+      "text": "HarnessDeveloper preview",
+      "href": "https://www.deepseek.com/harness/en/"
+    },
+    {
+      "text": "GitHub",
+      "href": "https://github.com/deepseek-ai/deepseek-harness"
+    },
+    {
+      "text": "",
+      "href": "https://www.deepseek.com/harness/en/"
+    },
+    {
+      "text": "GitHub",
+      "href": "https://github.com/deepseek-ai/deepseek-harness"
+    },
+    {
+      "text": "Developer docs",
+      "href": "https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart"
+    },
+    {
+      "text": "Community plugins",
+      "href": "https://github.com/topics/dsh-plugin"
+    },
+    {
+      "text": "Cordis paper",
+      "href": "https://arxiv.org/abs/2608.25512"
+    },
+    {
+      "text": "View on GitHub",
+      "href": "https://github.com/deepseek-ai/deepseek-harness"
+    },
+    {
+      "text": "Developer docs",
+      "href": "https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart"
+    },
+    {
+      "text": "Community plugins",
+      "href": "https://github.com/topics/dsh-plugin"
+    },
+    {
+      "text": "Cordis paper",
+      "href": "https://arxiv.org/abs/2608.25512"
+    },
+    {
+      "text": "View on GitHub",
+      "href": "https://github.com/deepseek-ai/deepseek-harness"
+    },
+    {
+      "text": "Developer docs",
+      "href": "https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart"
+    },
+    {
+      "text": "Community plugins",
+      "href": "https://github.com/topics/dsh-plugin"
+    },
+    {
+      "text": "Cordis paper",
+      "href": "https://arxiv.org/abs/2608.25512"
+    },
+    {
+      "text": "Cordis kernel",
+      "href": "https://github.com/cordiverse/cordis"
+    },
+    {
+      "text": "Cordis",
+      "href": "https://github.com/cordiverse/cordis"
+    },
+    {
+      "text": "Cordis",
+      "href": "https://github.com/cordiverse/cordis"
+    },
+    {
+      "text": "View on GitHub",
+      "href": "https://github.com/deepseek-ai/deepseek-harness"
+    },
+    {
+      "text": "Developer docs",
+      "href": "https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart"
+    },
+    {
+      "text": "Community plugins",
+      "href": "https://github.com/topics/dsh-plugin"
+    },
+    {
+      "text": "Safe Use Policy",
+      "href": "https://www.deepseek.com/harness/en/privacy/"
+    },
+    {
+      "text": "Data Processing Statement",
+      "href": "https://www.deepseek.com/harness/en/data-processing/"
+    }
+  ],
+  "resources": [
+    "https://www.deepseek.com/harness/images/harness/feat-plugin.en.png",
+    "https://www.deepseek.com/harness/images/harness/trajectory-real-view.en.png",
+    "https://www.deepseek.com/harness/images/qr-wechat.png",
+    "https://www.deepseek.com/harness/_next/static/css/6f322bb0cffe2c36.css",
+    "https://www.deepseek.com/harness/_next/static/chunks/webpack-34421cb9f143e967.js",
+    "https://www.deepseek.com/harness/_next/static/chunks/26fbc61a-ceed69912acb9826.js",
+    "https://www.deepseek.com/harness/_next/static/chunks/696-a8b1cdf47b7f00af.js",
+    "https://www.deepseek.com/harness/_next/static/chunks/main-app-b1b270f09ed5843e.js",
+    "https://www.deepseek.com/harness/_next/static/chunks/673-1ab5306bf4149788.js",
+    "https://www.deepseek.com/harness/_next/static/chunks/app/%5Blocale%5D/layout-774bae1fee7eb34c.js",
+    "https://www.deepseek.com/harness/_next/static/chunks/813-c2428501b5dbabee.js",
+    "https://www.deepseek.com/harness/_next/static/chunks/75-dacc4432252416b7.js",
+    "https://www.deepseek.com/harness/_next/static/chunks/app/%5Blocale%5D/page-f752721b763e9f77.js",
+    "https://www.deepseek.com/harness/fonts/host-grotesk-latin.woff2",
+    "https://www.deepseek.com/harness/fonts/dm-sans-400.woff2",
+    "https://www.deepseek.com/harness/fonts/dm-sans-500.woff2",
+    "https://www.deepseek.com/harness/fonts/edit-undo.ttf",
+    "https://www.deepseek.com/harness/fonts/fragment-mono-latin.woff2",
+    "https://www.deepseek.com/harness/fonts/montserrat-500.woff2",
+    "https://www.deepseek.com/harness/images/demo-poster.jpg",
+    "https://chat.deepseek.com/api/v0/ip_to_country_code",
+    "https://www.deepseek.com/harness/_next/static/chunks/2c7bdfb3.e1e07d3bc4ed5087.js",
+    "https://www.deepseek.com/harness/_next/static/chunks/397.6e6a00fd0e74f9ea.js",
+    "https://www.deepseek.com/harness/_next/static/chunks/776.7b3219fa93f8a656.js",
+    "https://www.deepseek.com/harness/_next/static/chunks/194.9af4cd38a39a29b3.js",
+    "https://www.deepseek.com/harness/_next/static/chunks/523.ccc6e89073db6172.js",
+    "https://www.deepseek.com/harness/_next/static/chunks/574.97f27e33283f5c24.js",
+    "https://www.deepseek.com/harness/en/index.txt?_rsc=x2ac0",
+    "https://www.deepseek.com/harness/videos/demo.mp4",
+    "https://www.deepseek.com/harness/images/hero-whale.svg",
+    "https://www.deepseek.com/harness/fonts/host-grotesk-latin-ext.woff2",
+    "https://www.deepseek.com/harness/fonts/host-grotesk-italic-latin.woff2",
+    "https://www.deepseek.com/harness/fonts/host-grotesk-italic-latin-ext.woff2",
+    "https://www.deepseek.com/harness/fonts/dm-sans-700.woff2",
+    "https://www.deepseek.com/harness/fonts/fragment-mono-latin-ext.woff2",
+    "https://www.deepseek.com/harness/fonts/montserrat.woff2",
+    "https://www.deepseek.com/harness/fonts/montserrat-600.woff2",
+    "https://www.deepseek.com/harness/en/",
+    "https://www.deepseek.com/harness/",
+    "https://www.deepseek.com/harness/favicon.svg",
+    "https://www.deepseek.com/harness/favicon.ico",
+    "https://www.deepseek.com/harness/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"
+  ]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "path": "/harness/privacy/",
+    "h1": "安全使用政策",
+    "title": "DeepSeek Harness | 安全使用政策",
+    "failures": [],
+    "external": []
+  },
+  {
+    "path": "/harness/data-processing/",
+    "h1": "数据处理说明",
+    "title": "DeepSeek Harness | 数据处理说明",
+    "failures": [],
+    "external": []
+  },
+  {
+    "path": "/harness/en/",
+    "h1": "Everything is a plugin",
+    "title": "DeepSeek Harness developer preview: Everything is a plugin",
+    "failures": [],
+    "external": []
+  },
+  {
+    "path": "/harness/en/privacy/",
+    "h1": "Safe Use Policy",
+    "title": "DeepSeek Harness | Safe Use Policy",
+    "failures": [],
+    "external": []
+  },
+  {
+    "path": "/harness/en/data-processing/",
+    "h1": "Data Processing Statement",
+    "title": "DeepSeek Harness | Data Processing Statement",
+    "failures": [],
+    "external": []
+  }
+]

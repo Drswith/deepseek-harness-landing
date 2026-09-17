@@ -1,0 +1,8 @@
+# Preserve the downloaded baseline bytes, including across CRLF-configured clones.
+site/** -text
+RECON/source/** -text
+RECON/rendered.html -text
+
+# This exact upstream player bundle contains whitespace in CSS template strings.
+# Keep its manifest hash instead of formatting third-party output.
+site/harness/_next/static/chunks/194.9af4cd38a39a29b3.js -whitespace

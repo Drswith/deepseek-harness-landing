@@ -1,0 +1,29 @@
+[
+  {
+    "width": 1440,
+    "height": 1000,
+    "changedPixels": 0,
+    "totalPixels": 1440000,
+    "changedPercent": 0,
+    "threshold": 0.1,
+    "scope": "first viewport, canvas and scrollbars hidden on both sites for static-layer comparison; dynamic effects excluded"
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "changedPixels": 0,
+    "totalPixels": 786432,
+    "changedPercent": 0,
+    "threshold": 0.1,
+    "scope": "first viewport, canvas and scrollbars hidden on both sites for static-layer comparison; dynamic effects excluded"
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "changedPixels": 578,
+    "totalPixels": 329160,
+    "changedPercent": 0.17559849313403816,
+    "threshold": 0.1,
+    "scope": "first viewport, canvas and scrollbars hidden on both sites for static-layer comparison; dynamic effects excluded"
+  }
+]

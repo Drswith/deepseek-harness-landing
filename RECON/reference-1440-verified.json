@@ -1,0 +1,98 @@
+{
+  "title": "DeepSeek Harness 开发者预览版：一切皆插件",
+  "h1": "一切皆插件",
+  "viewport": [
+    1440,
+    1000
+  ],
+  "overflow": false,
+  "sections": [
+    {
+      "text": "一切皆插件",
+      "font": "16px / 24px \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "width": 1440,
+      "height": 1000,
+      "left": 0
+    },
+    {
+      "text": "Harness 让 Agent 在真实场景中持续工作",
+      "font": "16px / 24px \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "width": 1140,
+      "height": 785.2421875,
+      "left": 150
+    },
+    {
+      "text": "一切皆插件，运行有迹可循",
+      "font": "16px / 24px \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "width": 1140,
+      "height": 1603.234375,
+      "left": 150
+    },
+    {
+      "text": "自定义你的 DeepSeek Harness",
+      "font": "16px / 24px \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "width": 1140,
+      "height": 1016.125,
+      "left": 150
+    },
+    {
+      "text": "快速体验或从源码安装",
+      "font": "16px / 24px \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "width": 1140,
+      "height": 658.6953125,
+      "left": 150
+    },
+    {
+      "text": "加入 DSH 插件生态",
+      "font": "16px / 24px \"DM Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans SC\", \"PingFang SC\", sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "width": 1140,
+      "height": 628.8046875,
+      "left": 150
+    }
+  ],
+  "fonts": [
+    "DM Sans",
+    "DM Sans",
+    "Edit Undo",
+    "Fragment Mono",
+    "Montserrat"
+  ],
+  "images": [
+    {
+      "path": "/harness/images/harness/feat-plugin.png",
+      "w": 1520,
+      "h": 950
+    },
+    {
+      "path": "/harness/images/harness/trajectory-real-view.zh.png",
+      "w": 1520,
+      "h": 950
+    },
+    {
+      "path": "/harness/images/harness/feat-plugin.png",
+      "w": 1520,
+      "h": 950
+    },
+    {
+      "path": "/harness/images/harness/trajectory-real-view.zh.png",
+      "w": 1520,
+      "h": 950
+    },
+    {
+      "path": "/harness/images/qr-wechat.png",
+      "w": 320,
+      "h": 320
+    }
+  ],
+  "canvasCount": 5,
+  "failures": [],
+  "external": [
+    "https://chat.deepseek.com/api/v0/ip_to_country_code"
+  ]
+}

@@ -1,0 +1,366 @@
+[
+  {
+    "url": "https://www.deepseek.com/harness/images/harness/feat-plugin.png",
+    "path": "harness/images/harness/feat-plugin.png",
+    "status": 200,
+    "bytes": 39266,
+    "sha256": "2d740afbc942a64e006c3d937ff564fd96116d24f9e0c6d3c59b480364a63e96"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/_next/static/css/6f322bb0cffe2c36.css",
+    "path": "harness/_next/static/css/6f322bb0cffe2c36.css",
+    "status": 200,
+    "bytes": 44670,
+    "sha256": "2917c6f28ecf573272ebaad15468ed078f7978cc94ed9709bfd7eb997f4db30b"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/images/qr-wechat.png",
+    "path": "harness/images/qr-wechat.png",
+    "status": 200,
+    "bytes": 14947,
+    "sha256": "10cc748b634b0d9ab65cf625ddd42dbef4f403b9be2e08e8f04581fa9f9fd924"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/images/harness/trajectory-real-view.zh.png",
+    "path": "harness/images/harness/trajectory-real-view.zh.png",
+    "status": 200,
+    "bytes": 164159,
+    "sha256": "2e7c16bb072fb48fdcf26e77a7fe35666af7a0686f30b14c0a2e001cbbe4586b"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/_next/static/chunks/webpack-34421cb9f143e967.js",
+    "path": "harness/_next/static/chunks/webpack-34421cb9f143e967.js",
+    "status": 200,
+    "bytes": 4059,
+    "sha256": "981f406188d167e6296b46876fbbce58345d0a27f0aaca9132cdf0af5c72f4e2"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/_next/static/chunks/26fbc61a-ceed69912acb9826.js",
+    "path": "harness/_next/static/chunks/26fbc61a-ceed69912acb9826.js",
+    "status": 200,
+    "bytes": 171902,
+    "sha256": "5dfbe30f865acfdd32eff5db14f14bf62826fc461ebf55bb2bba80bad5e02b24"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/_next/static/chunks/673-1ab5306bf4149788.js",
+    "path": "harness/_next/static/chunks/673-1ab5306bf4149788.js",
+    "status": 200,
+    "bytes": 27338,
+    "sha256": "d8292c88dcc2ff2557f5b9eaaa858decb49266956d22e97040cfd338eab226db"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/_next/static/chunks/696-a8b1cdf47b7f00af.js",
+    "path": "harness/_next/static/chunks/696-a8b1cdf47b7f00af.js",
+    "status": 200,
+    "bytes": 110127,
+    "sha256": "cf689597c84e5a395c7a88405281f6190fe20e6fbefe2233f635e9d2ece86572"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/_next/static/chunks/app/%5Blocale%5D/layout-774bae1fee7eb34c.js",
+    "path": "harness/_next/static/chunks/app/[locale]/layout-774bae1fee7eb34c.js",
+    "status": 200,
+    "bytes": 285,
+    "sha256": "6be1688e50ecd23a4c9f3f3230e3daeaeed206bc50684e1ce59d92d730f4c53b"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/_next/static/chunks/75-dacc4432252416b7.js",
+    "path": "harness/_next/static/chunks/75-dacc4432252416b7.js",
+    "status": 200,
+    "bytes": 21584,
+    "sha256": "9a1881363497befe221098c00f8d1d8e4c271f2aa490ec2524c67549f08eb907"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/_next/static/chunks/main-app-b1b270f09ed5843e.js",
+    "path": "harness/_next/static/chunks/main-app-b1b270f09ed5843e.js",
+    "status": 200,
+    "bytes": 463,
+    "sha256": "600baa7b76c8ed165d9d7c07c3c71ef385a762d628fc2bb2e46b5c489589bc3a"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/_next/static/chunks/app/%5Blocale%5D/page-f752721b763e9f77.js",
+    "path": "harness/_next/static/chunks/app/[locale]/page-f752721b763e9f77.js",
+    "status": 200,
+    "bytes": 74902,
+    "sha256": "1d32d30e091d4fb459ec7001696a01e35359f2ab0053df78fe398260d4b2a26c"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/_next/static/chunks/813-c2428501b5dbabee.js",
+    "path": "harness/_next/static/chunks/813-c2428501b5dbabee.js",
+    "status": 200,
+    "bytes": 196335,
+    "sha256": "10b5db4ed37402fa4d730cf99a44c6c26e135126398c20a9329350fe5b5fd7ba"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/fonts/host-grotesk-latin.woff2",
+    "path": "harness/fonts/host-grotesk-latin.woff2",
+    "status": 200,
+    "bytes": 20196,
+    "sha256": "5662dcd15d8c7dc5bf2168baa71072e509c5b97167554b861293f68e1aa6dde8"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/fonts/dm-sans-400.woff2",
+    "path": "harness/fonts/dm-sans-400.woff2",
+    "status": 200,
+    "bytes": 14200,
+    "sha256": "4ab51eb2cd7305d177187908d6397474d4520663f6c6e572feb0a64f4fa80006"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/fonts/dm-sans-500.woff2",
+    "path": "harness/fonts/dm-sans-500.woff2",
+    "status": 200,
+    "bytes": 14304,
+    "sha256": "19bf1984956517c35c2bd35b6cdedac12a21d6fcd3596c614ecdfb88b648909d"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/images/demo-poster.jpg",
+    "path": "harness/images/demo-poster.jpg",
+    "status": 200,
+    "bytes": 35529,
+    "sha256": "bda2d785ea33c5e3a91bbffa1b9ab6b56a9c9444b76887f11d5822b72ba856c2"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/fonts/fragment-mono-latin.woff2",
+    "path": "harness/fonts/fragment-mono-latin.woff2",
+    "status": 200,
+    "bytes": 15176,
+    "sha256": "4f4dc27f4a770c0d02fde800daa836c8adc0d1e423b28da74baaf0d1cc3ab96c"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/fonts/edit-undo.ttf",
+    "path": "harness/fonts/edit-undo.ttf",
+    "status": 200,
+    "bytes": 17168,
+    "sha256": "bccbdcb5a90b2ee7b7997f0f7b5c15f8e3d6719bd5559a38af14766cb3626056"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/fonts/montserrat-500.woff2",
+    "path": "harness/fonts/montserrat-500.woff2",
+    "status": 200,
+    "bytes": 18748,
+    "sha256": "2b53300fb9471520df2f4905847fb7a209879b2029ae893c05c6ee346b1320cd"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/_next/static/chunks/2c7bdfb3.e1e07d3bc4ed5087.js",
+    "path": "harness/_next/static/chunks/2c7bdfb3.e1e07d3bc4ed5087.js",
+    "status": 200,
+    "bytes": 685384,
+    "sha256": "c3e0e3b960ddbc5de13d87e24ca437f2874b2d3a3ce3d6283aad118e5d599ad1"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/_next/static/chunks/397.6e6a00fd0e74f9ea.js",
+    "path": "harness/_next/static/chunks/397.6e6a00fd0e74f9ea.js",
+    "status": 200,
+    "bytes": 131044,
+    "sha256": "7ccbcf060799257f6f0d305518f6b5c5a97f9da2beee730dab3fcfc7505264df"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/_next/static/chunks/776.7b3219fa93f8a656.js",
+    "path": "harness/_next/static/chunks/776.7b3219fa93f8a656.js",
+    "status": 200,
+    "bytes": 13376,
+    "sha256": "388d1d46fb05dedae5c21e1e67ec803a280e6bd3287290fc9eda67f84ebf9d6f"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/_next/static/chunks/194.9af4cd38a39a29b3.js",
+    "path": "harness/_next/static/chunks/194.9af4cd38a39a29b3.js",
+    "status": 200,
+    "bytes": 188306,
+    "sha256": "aa04475ebe6953009b3dd9aa1b9d32d2ad17238bd42ffba3472961912868d17b"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/_next/static/chunks/523.ccc6e89073db6172.js",
+    "path": "harness/_next/static/chunks/523.ccc6e89073db6172.js",
+    "status": 200,
+    "bytes": 1284,
+    "sha256": "b9261591da8a98c1874739517c3d2dcac791de3c001246b1b6339b9c384cc016"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/_next/static/chunks/574.97f27e33283f5c24.js",
+    "path": "harness/_next/static/chunks/574.97f27e33283f5c24.js",
+    "status": 200,
+    "bytes": 8062,
+    "sha256": "4ed91d1cd9899a76f7bdbb40ccda77e2e010c2dab96f312f0825f9c5bd4d69b0"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/index.txt",
+    "path": "harness/index.txt",
+    "status": 200,
+    "bytes": 11957,
+    "sha256": "2627de47762faff117a8832677170dcb879dc91a1643d2cbe09522f8fa381ca4"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/videos/demo.mp4",
+    "path": "harness/videos/demo.mp4",
+    "status": 200,
+    "bytes": 18909521,
+    "sha256": "3af4a9613dca0044096962e5446c731e33a37a00bc533c22170f608aac6a4ad6"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/images/hero-whale.svg",
+    "path": "harness/images/hero-whale.svg",
+    "status": 200,
+    "bytes": 3571,
+    "sha256": "0b2accfd6dc96b23a7938edef66c42c33148235c22006a6827ef304c5716ed3d"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/fonts/host-grotesk-latin-ext.woff2",
+    "path": "harness/fonts/host-grotesk-latin-ext.woff2",
+    "status": 200,
+    "bytes": 11840,
+    "sha256": "ad1af424e01f4bc276faddfc70ada26f7af4c4ef168bdf34848b7210b7c9e69f"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/fonts/host-grotesk-italic-latin.woff2",
+    "path": "harness/fonts/host-grotesk-italic-latin.woff2",
+    "status": 200,
+    "bytes": 22012,
+    "sha256": "7e958f70790b9569d41776d6c85a0198f581a5da018613d721a9eaa1bb0309da"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/fonts/host-grotesk-italic-latin-ext.woff2",
+    "path": "harness/fonts/host-grotesk-italic-latin-ext.woff2",
+    "status": 200,
+    "bytes": 12896,
+    "sha256": "d311bbf506a61f93218f9728f20d2a3abaf540719c15281c5c0ef2d3479f3238"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/fonts/dm-sans-700.woff2",
+    "path": "harness/fonts/dm-sans-700.woff2",
+    "status": 200,
+    "bytes": 14348,
+    "sha256": "35c5efa0e5daa52ee5c6500f5be354bf751fb65c4e49e1d6806c6eb5883e8fe9"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/fonts/fragment-mono-latin-ext.woff2",
+    "path": "harness/fonts/fragment-mono-latin-ext.woff2",
+    "status": 200,
+    "bytes": 7260,
+    "sha256": "e3085219252209a8d4128f90ff6d793315c752f73a979082d1d85d9cb46f63a4"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/fonts/montserrat.woff2",
+    "path": "harness/fonts/montserrat.woff2",
+    "status": 200,
+    "bytes": 18780,
+    "sha256": "e66bcd2761ab6924b25ce70dafe10e57a39193c4fea1516730bd9cb5240af6c8"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/fonts/montserrat-600.woff2",
+    "path": "harness/fonts/montserrat-600.woff2",
+    "status": 200,
+    "bytes": 18688,
+    "sha256": "d857325c360f7128b347ca924c1974967aaa886ba47dad22e4042d6c38b26a83"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/",
+    "path": "harness/index.html",
+    "status": 200,
+    "bytes": 99426,
+    "sha256": "740dff92a020aee6ceccc1b3ffa1c4a5234cf05fcdb8cdb0eb1e00bb451df6ea"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/en/",
+    "path": "harness/en/index.html",
+    "status": 200,
+    "bytes": 98095,
+    "sha256": "ac70ae9e5e949194f79948e669fc864c62b168582090ae637b12e0fbdd8668a5"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/favicon.svg",
+    "path": "harness/favicon.svg",
+    "status": 200,
+    "bytes": 3864,
+    "sha256": "d19b62d73c8db53d5a241dfb4adbc7cad259557e5da8da6587a86d7dd4b06382"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/favicon.ico",
+    "path": "harness/favicon.ico",
+    "status": 200,
+    "bytes": 209762,
+    "sha256": "30a4420e6e4dcb17fd7de560c5004346c2bc8cd971d2d5f5ee15326603e51321"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
+    "path": "harness/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
+    "status": 200,
+    "bytes": 91460,
+    "sha256": "0225eb034d024a03bdc90ea6c79f56193662e7c3eee909696298820e517cbb83"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/privacy/index.txt",
+    "path": "harness/privacy/index.txt",
+    "status": 200,
+    "bytes": 20742,
+    "sha256": "0939b3c652cac2c299f4c166c1dec3a87a115f8e6b012c93f1f8952069693850"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/data-processing/index.txt",
+    "path": "harness/data-processing/index.txt",
+    "status": 200,
+    "bytes": 16624,
+    "sha256": "fed3e009e9f95d56aeef1e618bca1b507d1185347e64bff736d99d040f945895"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/_next/static/chunks/app/%5Blocale%5D/privacy/page-5c35f81c6c621411.js",
+    "path": "harness/_next/static/chunks/app/[locale]/privacy/page-5c35f81c6c621411.js",
+    "status": 200,
+    "bytes": 335,
+    "sha256": "60c02699a75b37f0f178df6037d3559cba2cfefc2118c15aff9673a530890a84"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/_next/static/chunks/app/%5Blocale%5D/data-processing/page-336a4a5fc0e9234d.js",
+    "path": "harness/_next/static/chunks/app/[locale]/data-processing/page-336a4a5fc0e9234d.js",
+    "status": 200,
+    "bytes": 335,
+    "sha256": "7d5f2faa56258dc6e59ff96c62480af83a78064e3d514b1274573c228efbd2e3"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/images/harness/feat-plugin.en.png",
+    "path": "harness/images/harness/feat-plugin.en.png",
+    "status": 200,
+    "bytes": 43121,
+    "sha256": "0797e3861b1fb49ce6138db4ecf4b82afa9dba8f499cbca124f10bbeba7ccf7f"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/images/harness/trajectory-real-view.en.png",
+    "path": "harness/images/harness/trajectory-real-view.en.png",
+    "status": 200,
+    "bytes": 217722,
+    "sha256": "676b0e7b14bd7b0996b565a3a51011ff61fb399cd193f2c3e04205b908e0087f"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/en/index.txt",
+    "path": "harness/en/index.txt",
+    "status": 200,
+    "bytes": 11458,
+    "sha256": "401db43222a7092d218cbb2f1ccc9e4aee8bdd75e001b10a0820cd7f184c6af1"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/privacy/",
+    "path": "harness/privacy/index.html",
+    "status": 200,
+    "bytes": 53115,
+    "sha256": "332e7b550c3d5721d2872d29efbd4e4c3f2fab550c2732de92cb7a028c498700"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/en/privacy/",
+    "path": "harness/en/privacy/index.html",
+    "status": 200,
+    "bytes": 53489,
+    "sha256": "c21d965689f193f10e765630ed52d70be43fc9e9b31949fb4cac5a6bbffcbe56"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/data-processing/",
+    "path": "harness/data-processing/index.html",
+    "status": 200,
+    "bytes": 46889,
+    "sha256": "f599441fea5239954656aa00f74a4ae8d856057edafbfd51de4845bccb78995f"
+  },
+  {
+    "url": "https://www.deepseek.com/harness/en/data-processing/",
+    "path": "harness/en/data-processing/index.html",
+    "status": 200,
+    "bytes": 46045,
+    "sha256": "4c028e26a203fa0b643aee9b9913f1df5a004ed15af0e5c79453e1ce0bc96fe1"
+  }
+]

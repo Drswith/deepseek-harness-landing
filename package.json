@@ -1,0 +1,11 @@
+{
+  "name": "deepseek-harness-landing",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "dev": "node tools/serve.mjs",
+    "audit": "node tools/audit.mjs",
+    "diff:screenshots": "node tools/pixel-diff.mjs"
+  }
+}

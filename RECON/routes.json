@@ -1,0 +1,290 @@
+[
+  {
+    "path": "/harness/",
+    "title": "DeepSeek Harness 开发者预览版：一切皆插件",
+    "h1": "一切皆插件",
+    "links": [
+      {
+        "text": "Harness开发者预览版",
+        "href": "https://www.deepseek.com/harness/"
+      },
+      {
+        "text": "GitHub",
+        "href": "https://github.com/deepseek-ai/deepseek-harness"
+      },
+      {
+        "text": "",
+        "href": "https://www.deepseek.com/harness/"
+      },
+      {
+        "text": "GitHub",
+        "href": "https://github.com/deepseek-ai/deepseek-harness"
+      },
+      {
+        "text": "开发者文档",
+        "href": "https://deepseek-harness.github.io/deepseek-harness/guide/quickstart"
+      },
+      {
+        "text": "社区插件",
+        "href": "https://github.com/topics/dsh-plugin"
+      },
+      {
+        "text": "Cordis 论文",
+        "href": "https://arxiv.org/abs/2608.25512"
+      },
+      {
+        "text": "查看 GitHub",
+        "href": "https://github.com/deepseek-ai/deepseek-harness"
+      },
+      {
+        "text": "开发者文档",
+        "href": "https://deepseek-harness.github.io/deepseek-harness/guide/quickstart"
+      },
+      {
+        "text": "社区插件",
+        "href": "https://github.com/topics/dsh-plugin"
+      },
+      {
+        "text": "Cordis 论文",
+        "href": "https://arxiv.org/abs/2608.25512"
+      },
+      {
+        "text": "查看 GitHub",
+        "href": "https://github.com/deepseek-ai/deepseek-harness"
+      },
+      {
+        "text": "开发者文档",
+        "href": "https://deepseek-harness.github.io/deepseek-harness/guide/quickstart"
+      },
+      {
+        "text": "社区插件",
+        "href": "https://github.com/topics/dsh-plugin"
+      },
+      {
+        "text": "Cordis 论文",
+        "href": "https://arxiv.org/abs/2608.25512"
+      },
+      {
+        "text": "Cordis 内核",
+        "href": "https://github.com/cordiverse/cordis"
+      },
+      {
+        "text": "Cordis",
+        "href": "https://github.com/cordiverse/cordis"
+      },
+      {
+        "text": "Cordis",
+        "href": "https://github.com/cordiverse/cordis"
+      },
+      {
+        "text": "查看 GitHub",
+        "href": "https://github.com/deepseek-ai/deepseek-harness"
+      },
+      {
+        "text": "开发者文档",
+        "href": "https://deepseek-harness.github.io/deepseek-harness/guide/quickstart"
+      },
+      {
+        "text": "社区插件",
+        "href": "https://github.com/topics/dsh-plugin"
+      },
+      {
+        "text": "安全使用政策",
+        "href": "https://www.deepseek.com/harness/privacy/"
+      },
+      {
+        "text": "数据处理说明",
+        "href": "https://www.deepseek.com/harness/data-processing/"
+      }
+    ]
+  },
+  {
+    "path": "/harness/en/",
+    "title": "DeepSeek Harness developer preview: Everything is a plugin",
+    "h1": "Everything is a plugin",
+    "links": [
+      {
+        "text": "HarnessDeveloper preview",
+        "href": "https://www.deepseek.com/harness/en/"
+      },
+      {
+        "text": "GitHub",
+        "href": "https://github.com/deepseek-ai/deepseek-harness"
+      },
+      {
+        "text": "",
+        "href": "https://www.deepseek.com/harness/en/"
+      },
+      {
+        "text": "GitHub",
+        "href": "https://github.com/deepseek-ai/deepseek-harness"
+      },
+      {
+        "text": "Developer docs",
+        "href": "https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart"
+      },
+      {
+        "text": "Community plugins",
+        "href": "https://github.com/topics/dsh-plugin"
+      },
+      {
+        "text": "Cordis paper",
+        "href": "https://arxiv.org/abs/2608.25512"
+      },
+      {
+        "text": "View on GitHub",
+        "href": "https://github.com/deepseek-ai/deepseek-harness"
+      },
+      {
+        "text": "Developer docs",
+        "href": "https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart"
+      },
+      {
+        "text": "Community plugins",
+        "href": "https://github.com/topics/dsh-plugin"
+      },
+      {
+        "text": "Cordis paper",
+        "href": "https://arxiv.org/abs/2608.25512"
+      },
+      {
+        "text": "View on GitHub",
+        "href": "https://github.com/deepseek-ai/deepseek-harness"
+      },
+      {
+        "text": "Developer docs",
+        "href": "https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart"
+      },
+      {
+        "text": "Community plugins",
+        "href": "https://github.com/topics/dsh-plugin"
+      },
+      {
+        "text": "Cordis paper",
+        "href": "https://arxiv.org/abs/2608.25512"
+      },
+      {
+        "text": "Cordis kernel",
+        "href": "https://github.com/cordiverse/cordis"
+      },
+      {
+        "text": "Cordis",
+        "href": "https://github.com/cordiverse/cordis"
+      },
+      {
+        "text": "Cordis",
+        "href": "https://github.com/cordiverse/cordis"
+      },
+      {
+        "text": "View on GitHub",
+        "href": "https://github.com/deepseek-ai/deepseek-harness"
+      },
+      {
+        "text": "Developer docs",
+        "href": "https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart"
+      },
+      {
+        "text": "Community plugins",
+        "href": "https://github.com/topics/dsh-plugin"
+      },
+      {
+        "text": "Safe Use Policy",
+        "href": "https://www.deepseek.com/harness/en/privacy/"
+      },
+      {
+        "text": "Data Processing Statement",
+        "href": "https://www.deepseek.com/harness/en/data-processing/"
+      }
+    ]
+  },
+  {
+    "path": "/harness/privacy/",
+    "title": "DeepSeek Harness | 安全使用政策",
+    "h1": "安全使用政策",
+    "links": [
+      {
+        "text": "Harness",
+        "href": "https://www.deepseek.com/harness/"
+      },
+      {
+        "text": "GitHub",
+        "href": "https://github.com/deepseek-ai/deepseek-harness"
+      },
+      {
+        "text": "",
+        "href": "https://www.deepseek.com/harness/"
+      },
+      {
+        "text": "GitHub",
+        "href": "https://github.com/deepseek-ai/deepseek-harness"
+      },
+      {
+        "text": "开发者文档",
+        "href": "https://deepseek-harness.github.io/deepseek-harness/guide/quickstart"
+      },
+      {
+        "text": "社区插件",
+        "href": "https://github.com/topics/dsh-plugin"
+      },
+      {
+        "text": "Cordis 论文",
+        "href": "https://arxiv.org/abs/2608.25512"
+      },
+      {
+        "text": "harness-privacy@deepseek.com",
+        "href": "mailto:harness-privacy@deepseek.com"
+      },
+      {
+        "text": "harness-privacy@deepseek.com",
+        "href": "mailto:harness-privacy@deepseek.com"
+      },
+      {
+        "text": "← 返回 Harness 首页",
+        "href": "https://www.deepseek.com/harness/"
+      }
+    ]
+  },
+  {
+    "path": "/harness/data-processing/",
+    "title": "DeepSeek Harness | 数据处理说明",
+    "h1": "数据处理说明",
+    "links": [
+      {
+        "text": "Harness",
+        "href": "https://www.deepseek.com/harness/"
+      },
+      {
+        "text": "GitHub",
+        "href": "https://github.com/deepseek-ai/deepseek-harness"
+      },
+      {
+        "text": "",
+        "href": "https://www.deepseek.com/harness/"
+      },
+      {
+        "text": "GitHub",
+        "href": "https://github.com/deepseek-ai/deepseek-harness"
+      },
+      {
+        "text": "开发者文档",
+        "href": "https://deepseek-harness.github.io/deepseek-harness/guide/quickstart"
+      },
+      {
+        "text": "社区插件",
+        "href": "https://github.com/topics/dsh-plugin"
+      },
+      {
+        "text": "Cordis 论文",
+        "href": "https://arxiv.org/abs/2608.25512"
+      },
+      {
+        "text": "harness-privacy@deepseek.com",
+        "href": "mailto:harness-privacy@deepseek.com"
+      },
+      {
+        "text": "← 返回 Harness 首页",
+        "href": "https://www.deepseek.com/harness/"
+      }
+    ]
+  }
+]
