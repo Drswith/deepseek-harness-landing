@@ -33,4 +33,8 @@ source map 恢复、组件源码重建、跨浏览器/真机触摸、性能与�
 
 迁移后对全部 `tools/*.mjs` 执行 `node --check`，再次运行 `npm run audit` 和 `npm run diff:screenshots`，结果与第一阶段一致。验证了两个浏览器脚本在缺少 `LAB_SPACE_ID` 时明确拒绝启动，避免复用已结束的会话。未重复浏览器视觉采集，截图重算使用既有证据；官网资源哈希保持原样。
 
+## Netlify 结构复验
+
+`netlify.toml` 将 `site/` 声明为 publish directory，使用无依赖的 `tools/netlify-build.mjs` 检查根入口、中文/英文页面、政策页、CSS、视频和本地地域响应。Netlify 部署时只有 publish directory 内的文件会上传，因此报告与采集脚本不会进入线上发布物；根级配置仍由仓库保留并被 Netlify 读取。
+
 提交检查发现官方播放器产物 `194.9af4cd38a39a29b3.js` 含尾随空白。为保持采集哈希，不格式化该文件；`.gitattributes` 仅对此文件关闭空白告警，并禁止对下载产物自动转换换行符。其余文件仍参与正常空白检查。

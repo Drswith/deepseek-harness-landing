@@ -5,6 +5,8 @@
   "scripts": {
     "start": "node tools/serve.mjs",
     "dev": "node tools/serve.mjs",
+    "build": "node tools/netlify-build.mjs",
+    "build:netlify": "node tools/netlify-build.mjs",
     "audit": "node tools/audit.mjs",
     "diff:screenshots": "node tools/pixel-diff.mjs"
   }

@@ -1,0 +1,77 @@
+[build]
+  publish = "site"
+  command = "npm run build:netlify"
+
+[dev]
+  command = "npm run dev"
+  targetPort = 43879
+  port = 8888
+  publish = "site"
+
+[[redirects]]
+  from = "/"
+  to = "/harness/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/harness"
+  to = "/harness/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/harness/en"
+  to = "/harness/en/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/harness/privacy"
+  to = "/harness/privacy/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/harness/data-processing"
+  to = "/harness/data-processing/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/harness/en/privacy"
+  to = "/harness/en/privacy/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/harness/en/data-processing"
+  to = "/harness/en/data-processing/"
+  status = 301
+  force = true
+
+[[headers]]
+  for = "/harness/*"
+
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+[[headers]]
+  for = "/harness/_next/static/*"
+
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/harness/fonts/*"
+
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/harness/images/*"
+
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
