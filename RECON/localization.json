@@ -1,8 +1,0 @@
-{
-  "artifact": "site/harness/_next/static/chunks/app/[locale]/page-f752721b763e9f77.js",
-  "original": "https://chat.deepseek.com/api/v0/ip_to_country_code",
-  "replacement": "/harness/lab-region.json",
-  "originalSha256": "1d32d30e091d4fb459ec7001696a01e35359f2ab0053df78fe398260d4b2a26c",
-  "localSha256": "61f64bf5c4997b45bf78eff5050a22f148d1da1fe84192fcc502e3f2d821b0bb",
-  "reason": "Keep the observed CN variant without an external geolocation request. The original response IP is intentionally not stored."
-}

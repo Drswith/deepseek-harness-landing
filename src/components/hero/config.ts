@@ -31,8 +31,8 @@ export interface FluidParameters {
 /**
  * Tunables extracted from the Harness hero's fluid configuration.
  * The values stay in source form so the shader has an explicit, reviewable API.
- * Offline provenance: RECON/source/page-f752721b763e9f77.js function u and
- * site/harness/_next/static/chunks/776.7b3219fa93f8a656.js function v.
+ * Values were derived from the reference page's observed client behavior and
+ * kept here as explicit source-level parameters.
  */
 export const HERO_FLUID_PARAMETERS: FluidParameters = {
   brushRadius: 0.09,

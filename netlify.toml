@@ -1,9 +1,9 @@
 [build]
   publish = "dist"
-  command = "npm run build:netlify"
+  command = "pnpm run build:netlify"
 
 [dev]
-  command = "npm run dev"
+  command = "pnpm run dev"
   targetPort = 43880
   port = 8888
   publish = "dist"

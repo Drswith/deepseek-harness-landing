@@ -5,7 +5,7 @@ import { test } from "node:test";
 import { JSDOM } from "jsdom";
 
 test("production pages and media are served without SPA fallbacks", async (t) => {
-  const server = spawn(process.execPath, ["tools/serve.mjs", "--production"], {
+  const server = spawn(process.execPath, ["tools/serve.mjs"], {
     cwd: new URL("../", import.meta.url),
     env: { ...process.env, HOST: "127.0.0.1", PORT: "0" },
     stdio: ["ignore", "pipe", "pipe"],

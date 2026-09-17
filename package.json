@@ -2,19 +2,16 @@
   "name": "deepseek-harness-landing",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@12.4.1",
   "scripts": {
     "start": "vite",
     "dev": "vite",
-    "preview": "node tools/serve.mjs --production",
-    "baseline": "node tools/serve.mjs",
+    "preview": "node tools/serve.mjs",
     "typecheck": "tsc --noEmit",
     "build": "tsc --noEmit && vite build && vite build --ssr src/entry-server.tsx --outDir .prerender && node tools/prerender.mjs",
-    "build:netlify": "npm run build && node tools/check-build.mjs",
+    "build:netlify": "pnpm run build && node tools/check-build.mjs",
     "test": "vitest run",
-    "test:http": "node --test tools/serve.test.mjs",
-    "check:baseline": "node tools/netlify-build.mjs",
-    "audit": "node tools/audit.mjs",
-    "diff:screenshots": "node tools/pixel-diff.mjs"
+    "test:http": "node --test tools/serve.test.mjs"
   },
   "dependencies": {
     "react": "19.3.0",
@@ -29,8 +26,6 @@
     "@types/three": "0.186.0",
     "@vitejs/plugin-react": "6.1.1",
     "jsdom": "30.1.0",
-    "pixelmatch": "7.2.0",
-    "pngjs": "7.0.0",
     "prettier": "3.9.7",
     "typescript": "7.0.2",
     "vite": "8.3.0",

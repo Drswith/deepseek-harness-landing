@@ -5,10 +5,9 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const production = process.argv.includes('--production');
-const staticRoot = path.join(projectRoot, production ? 'dist' : 'site');
+const staticRoot = path.join(projectRoot, 'dist');
 const host = process.env.HOST || '127.0.0.1';
-const port = Number.parseInt(process.env.PORT || (production ? '43882' : '43879'), 10);
+const port = Number.parseInt(process.env.PORT || '43882', 10);
 
 const mimeTypes = new Map([
   ['.css', 'text/css; charset=utf-8'],
@@ -18,7 +17,6 @@ const mimeTypes = new Map([
   ['.json', 'application/json; charset=utf-8'],
   ['.jpeg', 'image/jpeg'],
   ['.jpg', 'image/jpeg'],
-  ['.mp4', 'video/mp4'],
   ['.png', 'image/png'],
   ['.svg', 'image/svg+xml'],
   ['.txt', 'text/plain; charset=utf-8'],
@@ -177,19 +175,6 @@ const server = createServer(async (request, response) => {
     requestUrl = new URL(request.url || '/', `http://${host}:${port}`);
   } catch {
     sendText(response, 400, 'Bad Request\n');
-    return;
-  }
-
-  if (!production && requestUrl.pathname === '/') {
-    redirect(response, '/harness/');
-    return;
-  }
-  if (!production && requestUrl.pathname === '/harness') {
-    redirect(response, '/harness/');
-    return;
-  }
-  if (!production && !requestUrl.pathname.startsWith('/harness/')) {
-    sendText(response, 404, 'Not Found\n');
     return;
   }
 
