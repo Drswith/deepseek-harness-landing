@@ -15,7 +15,7 @@ npm start
 
 ## Netlify 部署
 
-仓库已包含根级 `netlify.toml`，Netlify 会使用 `site/` 作为发布目录，并在部署前运行 `npm run build:netlify`。根路径和无尾斜线路径会重定向到现有的 `/harness/` 路由；Next 静态资源、字体和图片配置为长期缓存。导入 GitHub 仓库 `Drswith/deepseek-harness-landing` 后可以直接部署，不需要在 Netlify UI 中重复填写 Build command 或 Publish directory。
+仓库已包含根级 `netlify.toml`，Netlify 会使用 `site/` 作为发布目录，并在部署前运行 `npm run build:netlify`。根路径会跳转到现有的 `/harness/` 路由，页面目录由静态 `index.html` 提供；Next 静态资源、字体和图片配置为长期缓存。导入 GitHub 仓库 `Drswith/deepseek-harness-landing` 后可以直接部署，不需要在 Netlify UI 中重复填写 Build command 或 Publish directory。
 
 本项目是静态构建产物，不需要 Netlify Functions。视频文件约 18.9MB，Netlify 官方建议大文件使用 CLI 部署而不是浏览器拖放；通过 Git 连接部署时由 Netlify 构建系统处理。
 
