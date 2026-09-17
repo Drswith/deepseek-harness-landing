@@ -1,0 +1,692 @@
+{
+  "zh/privacy": [
+    {
+      "tag": "p",
+      "props": {
+        "className": "legal-document-introduction"
+      },
+      "children": [
+        "DeepSeek Harness 是一款本地优先、可扩展的 Coding Agent 与 Agent 开发运行环境。为保证工具本身的安全，并防止被滥用于任何危险、有害目的，特制定本使用政策。"
+      ]
+    },
+    {
+      "tag": "section",
+      "props": {
+        "id": "security-recommendations"
+      },
+      "children": [
+        {
+          "tag": "h2",
+          "props": {},
+          "children": ["1. 安全建议"]
+        },
+        {
+          "tag": "p",
+          "props": {},
+          "children": [
+            {
+              "tag": "span",
+              "props": {},
+              "children": [
+                "DeepSeek Harness 能够访问多种系统，并代表用户在本地计算机上执行操作。请注意，由于 Harness 具备运行代码和在你的计算机上执行操作的能力，它们会带来独特的安全风险。尽管大多数基础模型都包含针对提示注入的基础防护措施，但在使用 DeepSeek Harness 与互联网交互或通过其他不可信数据源进行操作时，仍然存在固有风险。为尽可能降低这些风险，建议采取以下预防措施："
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ul",
+          "props": {},
+          "children": [
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "使用专用的虚拟机或容器，并为其分配有限的权限。这有助于降低本地系统攻击或意外访问关键系统资源的风险。"
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "始终仔细审查 Agent 生成的代码和测试内容，确保其准确性。"
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": ["避免向 Agent 提供敏感或机密信息，以防止信息泄露。"]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "对于可能导致重大变更的任何系统和操作，始终要求人工确认。"
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "如有可能，将复杂的 Agent 指令拆分为更小、相互隔离的操作。这有助于降低单次错误命令同时影响系统多个部分的风险，并便于发现异常行为。"
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "仅安装和运行来源可信、已经审查的插件、MCP server、Skills、Hooks 及其依赖。"
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "在某些情况下，Agent 可能会执行嵌入在内容中的命令，即使这些命令与分配给 Agent 的任务相冲突。建议采取上述预防措施，以限制提示注入带来的风险。"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "props": {},
+          "children": [
+            {
+              "tag": "span",
+              "props": {},
+              "children": [
+                "通过采取这些步骤，您可以降低与 Agent 相关的潜在安全风险，更好地保护您的系统和用户。如您发现安全漏洞，我们建议您通过仓库的 "
+              ]
+            },
+            {
+              "tag": "span",
+              "props": {},
+              "children": [
+                {
+                  "tag": "a",
+                  "props": {
+                    "href": "mailto:harness-privacy@deepseek.com"
+                  },
+                  "children": ["harness-privacy@deepseek.com"]
+                },
+                " 进行私下报告。"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "section",
+      "props": {
+        "id": "use-restrictions"
+      },
+      "children": [
+        {
+          "tag": "h2",
+          "props": {},
+          "children": ["2. 使用规范"]
+        },
+        {
+          "tag": "p",
+          "props": {},
+          "children": [
+            {
+              "tag": "span",
+              "props": {},
+              "children": [
+                "您在下载、使用 DeepSeek Harness 的过程中，不得将本软件或其衍生作品用于以下用途："
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ul",
+          "props": {},
+          "children": [
+            {
+              "tag": "li",
+              "props": {},
+              "children": ["以任何方式用于军事用途；"]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": ["以任何方式用于网络攻击，或用于化学、生物攻击；"]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": ["以任何方式对他人、其他群体进行有害操纵；"]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": ["以任何方式利用、伤害或试图利用或伤害他人的目的；"]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "生成或传播经证实为虚假的信息和/或旨在损害他人的内容；"
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": ["生成或传播违反适用监管要求的不当内容；"]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "在未经适当授权或出于不合理使用目的的情况下，生成或传播个人可识别信息；"
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": ["诽谤、贬损或以其他方式骚扰他人；"]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "以任何违反任何适用的国家或国际法律或法规，或侵犯任何第三方合法权益的方式使用。"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "props": {},
+          "children": [
+            {
+              "tag": "span",
+              "props": {},
+              "children": [
+                "如您在使用本软件过程中发现任何您认为可能违反使用规范的情况，可通过 "
+              ]
+            },
+            {
+              "tag": "span",
+              "props": {},
+              "children": [
+                {
+                  "tag": "a",
+                  "props": {
+                    "href": "mailto:harness-privacy@deepseek.com"
+                  },
+                  "children": ["harness-privacy@deepseek.com"]
+                },
+                " 进行举报反馈。"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "props": {},
+          "children": [
+            {
+              "tag": "span",
+              "props": {},
+              "children": [
+                "此外，请按照DeepSeek品牌素材使用规范来使用DeepSeek的商业标识和品牌素材。"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "zh/data-processing": [
+    {
+      "tag": "p",
+      "props": {
+        "className": "legal-document-introduction"
+      },
+      "children": [
+        "DeepSeek Harness 是本地优先、可扩展的 Coding Agent 与 Agent 开发运行环境。产品安装运行后，默认在用户本地设备上处理、存储以下数据，未经用户的同意不会上传到服务端，这些数据包括："
+      ]
+    },
+    {
+      "tag": "section",
+      "props": {
+        "id": "locally-processed-data",
+        "className": "legal-document-section-untitled"
+      },
+      "children": [
+        {
+          "tag": "ul",
+          "props": {},
+          "children": [
+            {
+              "tag": "li",
+              "props": {},
+              "children": ["用户的输入、模型的输出以及 session 其他上下文内容"]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "Agent 工具调用记录、附件、文件路径、执行结果以及运行日志"
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "用户自行配置的模型服务地址、API key 以及任何个人身份信息"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "props": {},
+          "children": [
+            {
+              "tag": "span",
+              "props": {},
+              "children": [
+                "为了排查定位问题、改进优化产品，我们可能会上报经过脱敏处理后的配置信息和项目清单，用户可以选择关闭或修改上报地址。"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "props": {},
+          "children": [
+            {
+              "tag": "span",
+              "props": {},
+              "children": [
+                "特别说明，当用户使用 DeepSeek Harness 主动配置、调用其他外部模型、网络工具、MCP服务或插件等服务、工具时，这些服务或者工具可能会上报用户数据，这些数据完全由被调用的服务方处理，相应数据处理、收集的情况请查阅对应服务提供方的数据处理政策。"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "props": {},
+          "children": [
+            {
+              "tag": "span",
+              "props": {},
+              "children": [
+                "如对本说明或 DeepSeek Harness 的数据处理活动有任何疑问，请通过 "
+              ]
+            },
+            {
+              "tag": "span",
+              "props": {},
+              "children": [
+                {
+                  "tag": "a",
+                  "props": {
+                    "href": "mailto:harness-privacy@deepseek.com"
+                  },
+                  "children": ["harness-privacy@deepseek.com"]
+                },
+                " 联系我们。"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "en/privacy": [
+    {
+      "tag": "p",
+      "props": {
+        "className": "legal-document-introduction"
+      },
+      "children": [
+        "DeepSeek Harness is a locally-first, extensible Coding Agent and agent development/runtime environment. To ensure the security of the tool itself and to prevent its misuse for any dangerous or harmful purposes, this Use Policy is hereby established."
+      ]
+    },
+    {
+      "tag": "section",
+      "props": {
+        "id": "security-recommendations"
+      },
+      "children": [
+        {
+          "tag": "h2",
+          "props": {},
+          "children": ["1. Security Recommendations"]
+        },
+        {
+          "tag": "p",
+          "props": {},
+          "children": [
+            {
+              "tag": "span",
+              "props": {},
+              "children": [
+                "DeepSeek Harness is capable of accessing various systems and performing operations on your local computer on your behalf. Please note that because Harness has the ability to run code and execute actions on your machine, it introduces unique security risks. Although most foundation models include basic safeguards against prompt injection, inherent risks remain when using DeepSeek Harness to interact with the internet or operate through other untrusted data sources. To mitigate these risks to the greatest extent possible, we recommend the following precautions:"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ul",
+          "props": {},
+          "children": [
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "Use a dedicated virtual machine or container with limited privileges. This helps reduce the risk of local system attacks or accidental access to critical system resources."
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "Always carefully review the code and test content generated by the Agent to ensure its accuracy."
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "Avoid providing sensitive or confidential information to the Agent to prevent information disclosure."
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "Always require human approval for any system or operation that could result in significant changes."
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "When possible, break complex Agent instructions into smaller, isolated operations. This helps reduce the risk that a single erroneous command affects multiple parts of the system simultaneously and facilitates the detection of abnormal behavior."
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "Only install and run plugins, MCP servers, Skills, Hooks, and their dependencies that come from trusted sources and have been reviewed."
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "In some cases, the Agent may execute commands embedded in content, even if those commands conflict with the assigned task. We recommend adopting the above precautions to limit the risks posed by prompt injection."
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "props": {},
+          "children": [
+            {
+              "tag": "span",
+              "props": {},
+              "children": [
+                "By taking these steps, you can reduce the potential security risks associated with the Agent and better protect your systems and users. If you discover a security vulnerability, we recommend that you report it privately through the repository's "
+              ]
+            },
+            {
+              "tag": "span",
+              "props": {},
+              "children": [
+                {
+                  "tag": "a",
+                  "props": {
+                    "href": "mailto:harness-privacy@deepseek.com"
+                  },
+                  "children": ["harness-privacy@deepseek.com"]
+                },
+                "."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "section",
+      "props": {
+        "id": "use-restrictions"
+      },
+      "children": [
+        {
+          "tag": "h2",
+          "props": {},
+          "children": ["2. Use Restrictions"]
+        },
+        {
+          "tag": "p",
+          "props": {},
+          "children": [
+            {
+              "tag": "span",
+              "props": {},
+              "children": [
+                "During the download and use of DeepSeek Harness, you must not use the software or its derivatives for the following purposes:"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ul",
+          "props": {},
+          "children": [
+            {
+              "tag": "li",
+              "props": {},
+              "children": ["For military purposes in any manner;"]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "For cyberattacks, or for chemical or biological attacks, in any manner;"
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "For harmful manipulation of other individuals or groups in any manner;"
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "For exploiting, harming, or attempting to exploit or harm others in any manner;"
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "For generating or disseminating information that has been verified as false and/or content intended to harm others;"
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "For generating or disseminating inappropriate content that violates applicable regulatory requirements;"
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "For generating or disseminating personally identifiable information without proper authorization or for unreasonable use purposes;"
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "For defaming, disparaging, or otherwise harassing others;"
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "For use in any manner that violates any applicable national or international laws or regulations, or infringes upon the lawful rights and interests of any third party."
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "props": {},
+          "children": [
+            {
+              "tag": "span",
+              "props": {},
+              "children": [
+                "If, during your use of the software, you discover any situation that you believe may violate these Use Restrictions, please report it through the "
+              ]
+            },
+            {
+              "tag": "span",
+              "props": {},
+              "children": [
+                {
+                  "tag": "a",
+                  "props": {
+                    "href": "mailto:harness-privacy@deepseek.com"
+                  },
+                  "children": ["harness-privacy@deepseek.com"]
+                },
+                "."
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "props": {},
+          "children": [
+            {
+              "tag": "span",
+              "props": {},
+              "children": [
+                "Additionally, please use DeepSeek's commercial logos and brand materials in accordance with the DeepSeek Brand Asset Usage Guidelines."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "en/data-processing": [
+    {
+      "tag": "p",
+      "props": {
+        "className": "legal-document-introduction"
+      },
+      "children": [
+        "DeepSeek Harness is a local-first, extensible Coding Agent and agent development/runtime environment. Once the product is installed and running, it processes and stores the following data locally on the user's device by default, and does not upload them to the server without the user's consent. Such data includes:"
+      ]
+    },
+    {
+      "tag": "section",
+      "props": {
+        "id": "locally-processed-data",
+        "className": "legal-document-section-untitled"
+      },
+      "children": [
+        {
+          "tag": "ul",
+          "props": {},
+          "children": [
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "User inputs, model outputs, and other session context content"
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "Agent tool call records, attachments, file paths, execution results, and runtime logs"
+              ]
+            },
+            {
+              "tag": "li",
+              "props": {},
+              "children": [
+                "Model service addresses, API keys, and any personally identifiable information configured by the user"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "props": {},
+          "children": [
+            {
+              "tag": "span",
+              "props": {},
+              "children": [
+                "To troubleshoot issues and improve the product, we may report anonymized configuration information and project lists, and users can choose to disable reporting or modify the reporting address."
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "props": {},
+          "children": [
+            {
+              "tag": "span",
+              "props": {},
+              "children": [
+                "Please note that when users actively configure and invoke other external models, web tools, MCP services, plugins, or other services/tools through DeepSeek Harness, these services or tools may upload user data. Such data is processed entirely by the invoked service providers. For details on their data processing and collection practices, please refer to the data processing policies of the respective service providers."
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "props": {},
+          "children": [
+            {
+              "tag": "span",
+              "props": {},
+              "children": [
+                "If you have any questions regarding this Policy or the data processing activities of DeepSeek Harness, please contact us at "
+              ]
+            },
+            {
+              "tag": "span",
+              "props": {},
+              "children": [
+                {
+                  "tag": "a",
+                  "props": {
+                    "href": "mailto:harness-privacy@deepseek.com"
+                  },
+                  "children": ["harness-privacy@deepseek.com"]
+                },
+                "."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

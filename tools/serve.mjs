@@ -5,9 +5,10 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const staticRoot = path.join(projectRoot, 'site');
+const production = process.argv.includes('--production');
+const staticRoot = path.join(projectRoot, production ? 'dist' : 'site');
 const host = process.env.HOST || '127.0.0.1';
-const port = Number.parseInt(process.env.PORT || '43879', 10);
+const port = Number.parseInt(process.env.PORT || (production ? '43882' : '43879'), 10);
 
 const mimeTypes = new Map([
   ['.css', 'text/css; charset=utf-8'],
@@ -179,15 +180,15 @@ const server = createServer(async (request, response) => {
     return;
   }
 
-  if (requestUrl.pathname === '/') {
+  if (!production && requestUrl.pathname === '/') {
     redirect(response, '/harness/');
     return;
   }
-  if (requestUrl.pathname === '/harness') {
+  if (!production && requestUrl.pathname === '/harness') {
     redirect(response, '/harness/');
     return;
   }
-  if (!requestUrl.pathname.startsWith('/harness/')) {
+  if (!production && !requestUrl.pathname.startsWith('/harness/')) {
     sendText(response, 404, 'Not Found\n');
     return;
   }
@@ -270,6 +271,6 @@ process.once('SIGINT', () => stop('SIGINT'));
 process.once('SIGTERM', () => stop('SIGTERM'));
 
 server.listen(port, host, () => {
-  console.log(`Static site server listening at http://${host}:${port}/`);
+  console.log(`Static site server listening at http://${host}:${server.address().port}/`);
   console.log(`Static root: ${staticRoot}`);
 });

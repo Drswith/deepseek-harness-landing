@@ -1,0 +1,209 @@
+/* Reference design tokens and self-hosted fonts. See THIRD_PARTY_NOTICES.md. */
+@font-face {
+  font-family: Edit Undo;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/edit-undo.ttf) format("truetype");
+}
+@font-face {
+  font-family: Host Grotesk;
+  font-style: normal;
+  font-weight: 300 800;
+  font-display: swap;
+  src: url(/fonts/host-grotesk-latin.woff2) format("woff2");
+  unicode-range:
+    U+00??, U+0131, U+0152-0153, U+02bb-02bc, U+02c6, U+02da, U+02dc, U+0304,
+    U+0308, U+0329, U+2000-206f, U+20ac, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+feff, U+fffd;
+}
+@font-face {
+  font-family: Host Grotesk;
+  font-style: normal;
+  font-weight: 300 800;
+  font-display: swap;
+  src: url(/fonts/host-grotesk-latin-ext.woff2) format("woff2");
+  unicode-range:
+    U+0100-02ba, U+02bd-02c5, U+02c7-02cc, U+02ce-02d7, U+02dd-02ff, U+0304,
+    U+0308, U+0329, U+1d00-1dbf, U+1e00-1e9f, U+1ef2-1eff, U+2020, U+20a0-20ab,
+    U+20ad-20c0, U+2113, U+2c60-2c7f, U+a720-a7ff;
+}
+@font-face {
+  font-family: Host Grotesk;
+  font-style: italic;
+  font-weight: 300 800;
+  font-display: swap;
+  src: url(/fonts/host-grotesk-italic-latin.woff2) format("woff2");
+  unicode-range:
+    U+00??, U+0131, U+0152-0153, U+02bb-02bc, U+02c6, U+02da, U+02dc, U+0304,
+    U+0308, U+0329, U+2000-206f, U+20ac, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+feff, U+fffd;
+}
+@font-face {
+  font-family: Host Grotesk;
+  font-style: italic;
+  font-weight: 300 800;
+  font-display: swap;
+  src: url(/fonts/host-grotesk-italic-latin-ext.woff2) format("woff2");
+  unicode-range:
+    U+0100-02ba, U+02bd-02c5, U+02c7-02cc, U+02ce-02d7, U+02dd-02ff, U+0304,
+    U+0308, U+0329, U+1d00-1dbf, U+1e00-1e9f, U+1ef2-1eff, U+2020, U+20a0-20ab,
+    U+20ad-20c0, U+2113, U+2c60-2c7f, U+a720-a7ff;
+}
+@font-face {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url(/fonts/dm-sans-400.woff2) format("woff2");
+}
+@font-face {
+  font-family: DM Sans;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url(/fonts/dm-sans-500.woff2) format("woff2");
+}
+@font-face {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url(/fonts/dm-sans-700.woff2) format("woff2");
+}
+@font-face {
+  font-family: Fragment Mono;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/fragment-mono-latin.woff2) format("woff2");
+  unicode-range:
+    U+00??, U+0131, U+0152-0153, U+02bb-02bc, U+02c6, U+02da, U+02dc, U+0304,
+    U+0308, U+0329, U+2000-206f, U+20ac, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+feff, U+fffd;
+}
+@font-face {
+  font-family: Fragment Mono;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/fragment-mono-latin-ext.woff2) format("woff2");
+  unicode-range:
+    U+0100-02ba, U+02bd-02c5, U+02c7-02cc, U+02ce-02d7, U+02dd-02ff, U+0304,
+    U+0308, U+0329, U+1d00-1dbf, U+1e00-1e9f, U+1ef2-1eff, U+2020, U+20a0-20ab,
+    U+20ad-20c0, U+2113, U+2c60-2c7f, U+a720-a7ff;
+}
+@font-face {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url(/fonts/montserrat.woff2) format("woff2");
+}
+@font-face {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url(/fonts/montserrat-500.woff2) format("woff2");
+}
+@font-face {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url(/fonts/montserrat-600.woff2) format("woff2");
+}
+:root {
+  --ds-btn-ghost-hover-bg: hsla(0, 0%, 100%, 0.08);
+  --ds-radius-sm: 8px;
+  --ds-color-brand-deep: #fff;
+  --ds-radius-media: 10px;
+  --ds-color-bg-surface-2: hsla(0, 0%, 100%, 0.04);
+  --ds-blur-glass: 12px;
+  --ds-color-bg-hero-cta: hsla(0, 0%, 100%, 0.12);
+  --ds-color-border-divider: hsla(0, 0%, 100%, 0.25);
+  --ds-radius-pill: 100px;
+  --ds-space-2: 8px;
+  --ds-color-border-secondary: hsla(0, 0%, 100%, 0.2);
+  --ds-btn-ghost-text: #fff;
+  --ds-radius-panel: 16px;
+  --ds-color-bg-overlay: #262626;
+  --ds-btn-primary-bg: #fff;
+  --ds-font-display:
+    "Host Grotesk", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  --ds-radius-input: 10px;
+  --ds-color-border-input-focus: hsla(0, 0%, 100%, 0.25);
+  --ds-font-sans:
+    "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans SC", "PingFang SC", sans-serif;
+  --ds-color-bg-input-hover: hsla(0, 0%, 100%, 0.12);
+  --ds-btn-secondary-hover-bg: hsla(0, 0%, 100%, 0.2);
+  --ds-space-13: 240px;
+  --ds-color-border-input: hsla(0, 0%, 100%, 0.2);
+  --ds-color-scrollbar: hsla(0, 0%, 100%, 0.2);
+  --ds-space-9: 80px;
+  --ds-btn-ghost-static-border: rgba(0, 0, 0, 0.2);
+  --ds-space-6: 32px;
+  --ds-color-brand-light-reverse: #73a3d2;
+  --ds-color-border-subtle: hsla(0, 0%, 100%, 0.08);
+  --ds-btn-secondary-bg: hsla(0, 0%, 100%, 0.06);
+  --ds-color-bg-page: #0a0a0a;
+  --ds-space-5: 24px;
+  --ds-color-bg-surface-3: hsla(0, 0%, 100%, 0.02);
+  --ds-btn-secondary-border: hsla(0, 0%, 100%, 0.15);
+  --ds-btn-secondary-hover-border: hsla(0, 0%, 100%, 0.6);
+  --ds-color-text-description: hsla(0, 0%, 100%, 0.5);
+  --ds-color-static-white: #fff;
+  --ds-space-7: 40px;
+  --ds-color-brand: #6799fe;
+  --ds-color-text-primary: #fff;
+  --ds-btn-primary-text: #0a0a0a;
+  --ds-space-1: 4px;
+  --ds-color-bg-dark: #fff;
+  --ds-space-8: 56px;
+  --ds-color-static-black: #0f0f0f;
+  --ds-color-bg-surface-4: hsla(0, 0%, 100%, 0.015);
+  --ds-color-text-inverse: #fff;
+  --ds-color-border-default: hsla(0, 0%, 100%, 0.06);
+  --ds-btn-ghost-static-bg: transparent;
+  --ds-btn-ghost-static-text: #0f0f0f;
+  --ds-btn-ghost-hover-border: hsla(0, 0%, 100%, 0.2);
+  --ds-btn-liquid-hover-bg: rgba(0, 0, 0, 0.2);
+  --ds-color-bg-input: hsla(0, 0%, 100%, 0.08);
+  --ds-space-3: 12px;
+  --ds-color-text-secondary: hsla(0, 0%, 100%, 0.8);
+  --ds-space-4: 16px;
+  --ds-radius-card: 24px;
+  --ds-color-brand-medium-reverse: #fff;
+  --ds-space-11: 160px;
+  --ds-color-text-link-blue: #234792;
+  --ds-color-text-primary-bluish: #fff;
+  --ds-shadow-card: hsla(0, 0%, 100%, 0.12) 0px 1px 0px 0px inset;
+  --ds-font-body:
+    "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans SC", "PingFang SC", sans-serif;
+  --ds-color-bg-hover: hsla(0, 0%, 100%, 0.06);
+  --ds-color-border-strong: hsla(0, 0%, 100%, 0.24);
+  --ds-btn-ghost-border: transparent;
+  --ds-color-bg-surface-raised: hsla(0, 0%, 100%, 0.25);
+  --ds-color-border-hover: hsla(0, 0%, 100%, 0.2);
+  --ds-btn-liquid-bg: #fff;
+  --ds-color-bg-code: rgba(0, 0, 0, 0.35);
+  --ds-btn-ghost-static-hover-bg: rgba(0, 0, 0, 0.05);
+  --ds-btn-ghost-static-hover-border: rgba(9, 45, 78, 0.3);
+  --ds-color-bg-surface-5: hsla(0, 0%, 100%, 0.12);
+  --ds-btn-primary-border: transparent;
+  --ds-color-bg-surface-1: hsla(0, 0%, 100%, 0.06);
+  --ds-color-static-black-secondary: rgba(0, 0, 0, 0.6);
+  --ds-btn-primary-hover-bg: rgba(0, 0, 0, 0.2);
+  --ds-font-mono:
+    "Fragment Mono", ui-monospace, SFMono-Regular, Menlo, Consolas,
+    "Noto Sans SC", "PingFang SC", "Microsoft YaHei", monospace;
+  --ds-space-10: 120px;
+  --ds-space-12: 200px;
+  --ds-color-text-placeholder: hsla(0, 0%, 100%, 0.3);
+  --ds-btn-secondary-text: #fff;
+  --ds-btn-ghost-bg: transparent;
+}

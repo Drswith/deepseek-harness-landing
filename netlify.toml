@@ -1,21 +1,15 @@
 [build]
-  publish = "site"
+  publish = "dist"
   command = "npm run build:netlify"
 
 [dev]
   command = "npm run dev"
-  targetPort = 43879
+  targetPort = 43880
   port = 8888
-  publish = "site"
-
-[[redirects]]
-  from = "/"
-  to = "/harness/"
-  status = 301
-  force = true
+  publish = "dist"
 
 [[headers]]
-  for = "/harness/*"
+  for = "/*"
 
   [headers.values]
     X-Content-Type-Options = "nosniff"
@@ -23,19 +17,19 @@
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
 
 [[headers]]
-  for = "/harness/_next/static/*"
+  for = "/assets/*"
 
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
 [[headers]]
-  for = "/harness/fonts/*"
+  for = "/fonts/*"
 
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
 [[headers]]
-  for = "/harness/images/*"
+  for = "/images/*"
 
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
