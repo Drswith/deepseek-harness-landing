@@ -21,19 +21,30 @@
 .hero-visual__grid {
   overflow: hidden;
   -webkit-mask-image: linear-gradient(
-    #000 0%,
-    rgba(0, 0, 0, 0.91) 9%,
+    #000000fc 0%,
+    #000000e8 8.98%,
     transparent 100%
   );
-  mask-image: linear-gradient(
-    #000 0%,
-    rgba(0, 0, 0, 0.91) 9%,
-    transparent 100%
-  );
+  mask-image: linear-gradient(#000000fc 0%, #000000e8 8.98%, transparent 100%);
 }
 
 .hero-visual__fluid {
   z-index: 0;
+}
+
+.hero-visual--hero .hero-visual__fluid {
+  animation: hero-fluid-enter 1.8s ease-out backwards;
+}
+
+@keyframes hero-fluid-enter {
+  from {
+    opacity: 0;
+    filter: blur(20px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
 }
 
 .hero-visual__grid {
@@ -118,6 +129,10 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .hero-visual--hero .hero-visual__fluid {
+    animation: none;
+  }
+
   .hero-visual__shade {
     background: linear-gradient(180deg, rgba(10, 10, 10, 0), #0a0a0a);
   }

@@ -28,7 +28,7 @@ export function HeroVisual({
           <WhalePoints variant={variant} />
         </div>
       ) : null}
-      <div className="hero-visual__shade" />
+      {variant === "community" ? <div className="hero-visual__shade" /> : null}
     </div>
   );
 }

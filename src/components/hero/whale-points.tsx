@@ -3,6 +3,7 @@ import * as THREE from "three";
 
 import type { HeroVariant } from "./config";
 import { WHALE_FRAGMENT_SHADER, WHALE_VERTEX_SHADER } from "./shaders";
+import { isWhalePixel } from "./whale-pixels";
 
 const WHALE_ASSET = "/images/hero-whale.svg";
 const PIXEL_SAMPLE_SIZE = 60;
@@ -60,26 +61,6 @@ function sampleWhale(image: HTMLImageElement): WhalePixelData | null {
       255;
   }
 
-  const isInterior = (x: number, y: number): boolean => {
-    for (let offsetY = -2; offsetY <= 2; offsetY += 1) {
-      for (let offsetX = -2; offsetX <= 2; offsetX += 1) {
-        if (offsetX === 0 && offsetY === 0) continue;
-        const neighborX = x + offsetX;
-        const neighborY = y + offsetY;
-        if (
-          neighborX < 0 ||
-          neighborY < 0 ||
-          neighborX >= PIXEL_SAMPLE_SIZE ||
-          neighborY >= PIXEL_SAMPLE_SIZE ||
-          luminance[neighborY * PIXEL_SAMPLE_SIZE + neighborX] <= 0.2
-        ) {
-          return false;
-        }
-      }
-    }
-    return true;
-  };
-
   const positions: number[] = [];
   const opacities: number[] = [];
   const edges: number[] = [];
@@ -88,7 +69,7 @@ function sampleWhale(image: HTMLImageElement): WhalePixelData | null {
   for (let y = 0; y < PIXEL_SAMPLE_SIZE; y += 1) {
     for (let x = 0; x < PIXEL_SAMPLE_SIZE; x += 1) {
       const opacity = luminance[y * PIXEL_SAMPLE_SIZE + x];
-      if (opacity <= 0.2 || isInterior(x, y)) continue;
+      if (!isWhalePixel(luminance, PIXEL_SAMPLE_SIZE, x, y)) continue;
       positions.push((x - center) * 0.18, (center - y) * 0.18, 0);
       opacities.push(opacity);
 
@@ -148,8 +129,8 @@ function createWhaleMaterial(): THREE.ShaderMaterial {
       uWaveAmount: { value: 0.06 },
       uLightPos: { value: new THREE.Vector3(4.5, 5.5, 3) },
       uLightRange: { value: 14 },
-      uShadeMin: { value: 0.2 },
-      uShadeMax: { value: 1.116 },
+      uShadeMin: { value: 0.28 },
+      uShadeMax: { value: 1.4 },
       uColor: { value: new THREE.Color(0.75, 0.8, 0.9) },
       uMouse: { value: new THREE.Vector2(0, 0) },
       uMouseRadius: { value: 4.9 },
@@ -163,7 +144,7 @@ function createWhaleMaterial(): THREE.ShaderMaterial {
 }
 
 /**
- * Loads the supplied whale SVG into a 60px silhouette and renders its edge
+ * Loads the supplied whale SVG into a 60px silhouette and renders its filled
  * pixels as an animated Three.js instanced mesh, matching the source's fish mode.
  */
 export function WhalePoints({
@@ -335,6 +316,7 @@ export function WhalePoints({
         (activeStrength - material.uniforms.uMouseStrength.value) *
         (1 - Math.pow(0.05, Math.max(delta, 1 / 30)));
       material.uniforms.uMouse.value.copy(mouseWorld);
+      material.uniforms.uLightPos.value.x = 4.5 + mouseWorld.x * 1.05;
       material.uniforms.uColor.value.setRGB(
         0.75 * assembly,
         0.8 * assembly,

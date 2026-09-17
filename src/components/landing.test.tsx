@@ -1,4 +1,5 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
+import { renderToStaticMarkup } from "react-dom/server";
 import {
   cleanup,
   fireEvent,
@@ -15,6 +16,23 @@ import { DemoShowcase } from "./DemoShowcase";
 vi.mock("./hero/HeroVisual", () => ({ HeroVisual: () => null }));
 afterEach(cleanup);
 describe("landing routes and content", () => {
+  it("prerenders the Harness badge's highlight frame and monospace label", () => {
+    const html = renderToStaticMarkup(
+      <Header copy={dictionaries.zh} locale="zh" page="" />,
+    );
+    const container = document.createElement("div");
+    container.innerHTML = html;
+
+    expect(
+      container.querySelector(
+        ".site-header .harness-badge > .harness-badge__label",
+      )?.textContent,
+    ).toBe("Harness");
+    expect(container.querySelector(".brand")?.getAttribute("aria-label")).toBe(
+      "DeepSeek Harness",
+    );
+  });
+
   it("uses a static demo image without video or playback controls", () => {
     const { container } = render(
       <DemoShowcase copy={dictionaries.zh} locale="zh" />,

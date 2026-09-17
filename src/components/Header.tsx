@@ -65,7 +65,9 @@ export function Header({
         height="24"
         alt="deepseek"
       />
-      <span className="harness-badge">Harness</span>
+      <span className="harness-badge">
+        <span className="harness-badge__label">Harness</span>
+      </span>
     </a>
   );
   return (
